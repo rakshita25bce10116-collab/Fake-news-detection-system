@@ -8,7 +8,8 @@ Fundamentals of AI and ML - Evaluated Course Project
 * **Year:** First Year B.Tech
 
   
-**Problem Statement**
+## Problem Statement 
+
 Fake news spreads rapidly on social media and online platforms. It is difficult for users to distinguish between real and fake information, leading to misinformation and confusion.
 
 **The Solution**
