@@ -1,33 +1,35 @@
-# Fake-news-detection-system
-Fundamentals of AI and ML - Evaluated Course Project
+# Fake News Detection System 📰🕵️‍♂️
 
-## Student Details
-* **Name:** Rakshita Rao
-* **Registration Number:** 25BCE10116
-* **Branch:** Computer Science Engineering (CSE)
-* **Year:** First Year B.Tech
+**Author:** Rakshita Rao  
+**Registration Number:** 25BCE10116  
+**Program:** B.Tech CSE Core, 1st Year  
 
-  
-## Problem Statement 
+## Overview
+This project is a Machine Learning application designed to classify news articles as either **Real** or **Fake**. In an era of rampant misinformation, distinguishing credible news from fabricated stories is a critical real-world problem. This project applies Natural Language Processing (NLP) techniques to analyze text and predict its authenticity.
 
-Fake news spreads rapidly on social media and online platforms. It is difficult for users to distinguish between real and fake information, leading to misinformation and confusion.
+This project was built as the Bring Your Own Project (BYOP) for the Fundamentals of AI and ML course and submitted via the VITyarthi platform.
 
-## The Solution
+## How It Works
+The system uses a **TF-IDF Vectorizer** (Term Frequency-Inverse Document Frequency) to convert raw news text into numerical features. It then feeds those features into a **Logistic Regression** classification model. 
+* **TF-IDF** helps identify the most significant words in a document relative to the entire dataset.
+* **Logistic Regression** is an efficient and highly interpretable algorithm for binary classification tasks (Fake vs. Real).
 
-This project uses Machine Learning to classify news articles as Real or Fake. Using a Naive Bayes classifier and TF-IDF vectorization, the model analyzes text patterns and predicts the authenticity of news.
+## Prerequisites
+To run this project, you need Python installed on your system along with the following libraries:
+* `pandas` (for data manipulation)
+* `scikit-learn` (for machine learning models and evaluation)
 
-## Tech Stack
+You can install the dependencies using:
+`pip install pandas scikit-learn`
 
-Language: Python
-Libraries: pandas (data handling), scikit-learn (ML modeling), numpy (numerical operations), streamlit (UI)
+## Setup and Execution
+1. **Clone the repository:**
+   `git clone [insert_your_repo_link_here]`
+2. **Add the dataset:**
+   Ensure you have the dataset saved as `news.csv` in the root directory of this project. It must contain at least two columns: `text` (the article content) and `label` (the classification).
+3. **Run the script:**
+   Navigate to the directory in your terminal and run:
+   `python main.py`
 
-## How to Run This Project
-
-Clone the repository to your local machine.
-Install required libraries using: pip install pandas numpy scikit-learn streamlit
-Run the training script: python train.py
-Run the application: streamlit run app.py
-
-## Key Learnings
-
-This project demonstrates text preprocessing, feature extraction using TF-IDF, building a classification model, splitting datasets, and evaluating performance using accuracy.
+## Expected Output
+The script will output the loading status, confirm when training is complete, and then print the overall **Accuracy Score** as well as a detailed **Classification Report** (Precision, Recall, F1-Score) evaluating how well it identified both fake and real news on the testing data.
