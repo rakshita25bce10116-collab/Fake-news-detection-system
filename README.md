@@ -1,8 +1,9 @@
-# Fake News Detection System 📰🕵️‍♂️
+# Fake News Detection System 
 
 **Author:** Rakshita Rao  
 **Registration Number:** 25BCE10116  
-**Program:** B.Tech CSE Core, 1st Year  
+**Program:** B.Tech CSE Core
+**Year:** 1st Year
 
 ## Overview
 This project is a Machine Learning application designed to classify news articles as either **Real** or **Fake**. In an era of rampant misinformation, distinguishing credible news from fabricated stories is a critical real-world problem. This project applies Natural Language Processing (NLP) techniques to analyze text and predict its authenticity.
