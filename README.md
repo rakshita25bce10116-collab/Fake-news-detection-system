@@ -24,7 +24,7 @@ You can install the dependencies using:
 
 ## Setup and Execution
 1. **Clone the repository:**
-   `git clone [insert_your_repo_link_here]`
+   `git clone https://github.com/rakshita25bce10116-collab/Fake-news-detection-system/tree/main`
 2. **Add the dataset:**
    Ensure you have the dataset saved as `news.csv` in the root directory of this project. It must contain at least two columns: `text` (the article content) and `label` (the classification).
 3. **Run the script:**
